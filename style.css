@@ -44,9 +44,7 @@ font-family: 'Bebas Neue', sans-serif;
 font-weight: normal;
 }
 }
-.Navbar:hover{
-  background-color: rgb(9, 251, 25);
-}
+
 
 @layer containers {
 .Navbar {
@@ -166,7 +164,7 @@ align-items: center;
 }
 
 .content {
-  color:rgb(1, 251, 30);
+  color:rgb(245, 74, 74);
   display: grid;
   place-items: center;
 } 
@@ -304,7 +302,6 @@ border-radius: var(--radius-3);
 & i {
   font-size: var(--font-size-5);
 
-  /* VisBug ♥ */
   margin-inline-start: var(--size-00);
 }
 
@@ -432,7 +429,7 @@ background-color: var(--surface-1);
 }
 
 .about {
-  background-color: hsl(129, 100%, 50%);
+  background-color: hsl(128, 100%, 50%);
   animation: to-black linear both;
   animation-timeline: view();
   animation-range-start: 4%;
@@ -447,19 +444,19 @@ background-color: var(--surface-1);
 /* Avoiding custom properties to ensure the animation remains on the compositor for optimal performance. */
 @keyframes to-brand {
   to {
-    background-color: rgb(0, 255, 26);
+    background-color: rgb(255, 255, 255);
   }
 }
 
 @keyframes to-white {
   to {
-    background-color: rgb(0, 255, 26);
+    background-color: rgb(255, 255, 255);
   }
 }
 /* suuliin slat background */
 @keyframes to-black {
   to {
-    background-color: rgb(249, 126, 3);
+    background-color: rgb(188, 188, 188);
   }
 }
 }
@@ -556,7 +553,7 @@ body {
 @keyframes highlight {
   0%,
   100% {
-    color: rgb(0, 255, 17);
+    color: rgb(255, 255, 255);
   }
   30%,
   70% {
